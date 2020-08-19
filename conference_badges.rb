@@ -14,5 +14,11 @@ end
 
 def assign_rooms(list)
   new_list = []
+  counter = 0
   list.each do |speaker|
+    puts "Hello, #{speaker}! You'll be assigned to room #{counter}!"
+    counter += 1 
+  end 
+  return new_list
+end
     
