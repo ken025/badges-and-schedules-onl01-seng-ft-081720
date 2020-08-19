@@ -12,3 +12,7 @@ def batch_badge_creator(array)
   return other_array
 end
 
+def assign_rooms(list)
+  new_list = []
+  list.each do |speaker|
+    
