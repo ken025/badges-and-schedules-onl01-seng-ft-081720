@@ -9,4 +9,5 @@ def batch_badge_creator(speakers)
   speakers.each do |names|
     new_array << "Hello, my name is #{names}"
   end
+  return new_array
 end
