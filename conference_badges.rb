@@ -1,13 +1,14 @@
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
-  puts "Hello, my name is #{name}"
+  return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(speakers)
-  new_array
-  speakers.each do |names|
-    new_array << "Hello, my name is #{names}"
+
+def batch_badge_creator(array)
+  other_array = []
+  array.each do |name|
+    other_array.push("Hello, my name is #{name}.")
   end
-  return new_array
+  return other_array
 end
